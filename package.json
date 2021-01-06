@@ -10,17 +10,21 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "d3-shape": "^2.0.0",
     "react": "16.13.1",
     "react-native": "0.63.4",
     "react-native-svg": "^12.1.0",
-    "react-native-svg-transformer": "^0.14.3"
+    "react-native-svg-transformer": "^0.14.3",
+    "react-native-vector-icons": "^7.1.0"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
     "@babel/runtime": "^7.8.4",
     "@react-native-community/eslint-config": "^1.1.0",
+    "@types/d3-shape": "^2.0.0",
     "@types/react": "^17.0.0",
     "@types/react-native": "^0.63.43",
+    "@types/react-native-vector-icons": "^6.4.6",
     "@typescript-eslint/eslint-plugin": "^4.0.1",
     "@typescript-eslint/parser": "^4.0.1",
     "babel-jest": "^25.1.0",

@@ -1,15 +1,18 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, StyleSheet } from 'react-native';
+
+import Tabbar from '~/components/tabbar';
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'center',
+    justifyContent: 'flex-end',
     alignItems: 'center',
+    backgroundColor: '#ea3345',
   },
 });
 export const App: React.FC = () => (
   <View style={styles.container}>
-    <Text>Olá Mundo</Text>
+    <Tabbar />
   </View>
 );
